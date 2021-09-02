@@ -6,7 +6,7 @@
         {
             int counter = 0;
             string line;
-            System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\liamr\Downloads\words_alpha.txt");
+            System.IO.StreamReader file = new System.IO.StreamReader(@""); // insert file directory to list of words here
             while ((line = file.ReadLine()) != null)
             {
                 if (line.Length == 4)
